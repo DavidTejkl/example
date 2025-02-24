@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* reuseable */
+
+.row{
+    width: 1140px;
+    margin: 0px auto;
+}
+
+/* logo david */
+
+#logo img{
+    width: 200px;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
+
+/* navigacni lista */
+
+nav ul{
+    float: right;
+    margin-top: 95px;
+}
+
+nav ul li{
+    display: inline-block;
+    font-family: Papyrus;
+    margin-left: 45px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    border-bottom: 2.5px solid transparent;
+}
+
+nav ul li a:hover,
+nav ul li a:active{
+    font-size: 30px;
+    transition: border-bottom 0.7s;
+    border-bottom: 4px solid rgb(202, 125, 25);
+}
+
+
+
+/* logo v pozadi hlavicky */
+
+header{
+    background:linear-gradient(rgba(8, 8, 8, 0.7),rgba(83, 81, 81, 0.7)), url("images/logo\ pizza.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Text v logu i s tlacitky */
+
+.textlogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* pouze nadpis */
+
+.textlogo h1{
+    color: white;
+    font-size: 37px;
+    font-family: Magneto;
+    letter-spacing: 2px;
+    word-spacing: 2.5px;
+    }
+
+/* pouze tlacitka */
+
+.btn {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 4px solid #c95f22;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    left: 15%;
+    position: relative;
+}
+
+/* jednotliva tlacitka */
+
+.btn-full {
+    background: #cc682e;
+    margin-left: -50px;
+    font-size: 30px;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    color: #ffffff;
+    background: transparent;
+}
+
+.btn-full:hover,
+.btn-full:active{
+    transition: background 0.7s;
+    background: #792d01;
+    border: 1px solid #792d01;
+}
+
+.btn-empty {
+    background: #cc682e;
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+.btn-empty:link,
+.btn-empty:visited{
+    color: #ffffff;
+    background: transparent;
+}
+
+.btn-empty:hover,
+.btn-empty:active{
+    transition: background 0.7s;
+    background: rgb(121, 45, 1);
+    border: 1px solid #a93d00;
+}
+/*main*/
+
+.heading-main{
+    text-align: center;
+    font-family: Papyrus;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.heading-main:after{
+    content: "";
+    display: block;
+    width: 280px;
+    border-bottom:3px solid #ff5e00;
+    margin: 10px auto;
+}
+
+.about-us{
+    font-size: 20px;
+}
+ 
+.pizza-example img {
+    width: 100%; 
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #080808;
+}
+
+.pizzainfo img {
+    width: 100%; 
+    height: 270px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #080808;
+}
+
+.pizzatext{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pizzatext p{
+    font-size: 20px;
+    margin-left: 60px;
+    padding-top: 10px;
+    
+}
+
+.pizzatext div{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(218, 101, 59);
+    text-align: center;
+    border-radius: 50%;
+    padding: 8px;
+    float: left;
+    
+}
+
+.reference{
+    background:linear-gradient(rgba(8, 8, 8, 0.7),rgba(83, 81, 81, 0.7)), url("images/logo\ pizza.jpg");
+}
+
+.reference h2{
+    color: white;
+    padding-top: 60px;
+}
+
+
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.jedna{
+    color: white;
+    font-size: 20px;
+}
+
+.jedna p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fotoname img{
+    width: 60px;
+    border-radius: 50%;
+    float: left;
+}
+
+.fotoname{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.fotoname p {
+    padding: 8px;
+    margin-left: 80px;
+}
+
+.fotosegment li{
+    list-style-type: none;
+     background-color: black; 
+    overflow: hidden;
+    height: 300px;
+}
+
+.fotosegment img{
+    width: 100%;
+    height: 300px;
+    opacity: 0.5; 
+    transform: scale(1.20);
+}
+
+.fotosegment img:hover{  
+    transform: scale(1);
+    opacity: 1;
+    transition: transform 0.5s, opacity 0.5s;
+}
