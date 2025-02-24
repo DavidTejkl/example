@@ -1,2 +1,2 @@
 # example
-Pokus o pizza stránky v.1.00.
+Pokus o stránky s nabídkou fiktivní pizzerie v.1.00.
